@@ -1,0 +1,28 @@
+aircraft = { 21:19 ,25:18 ,23:27, 44:61, 57:53, 36:14, 17:33, 28:12 ,19:11}
+
+print("Aircraft coordinates:")
+print("x-coordinate is:",list(aircraft.keys()))
+print("y-coordinate is:",list(aircraft.values()))
+
+
+# defined a dictionary named fleet
+fleet = {"aircraft1":{11:24}, "aircraft2": { 33:74}, "aircraft3": { 52:61 }, "aircraft4": { 47:48 }, "aircraft5": { 19:13}}
+print("\nAircraft 1 coordinates:")
+print("x-coordinate is:",list(fleet["aircraft1"].keys()))
+print("y-coordinate is:",list(fleet["aircraft1"].values()))
+
+print("\nAircraft 2 coordinates:")
+print("x-coordinate is:",list(fleet["aircraft2"].keys()))
+print("y-coordinate is:",list(fleet["aircraft2"].values()))
+
+print("\nAircraft 3 coordinates:")
+print("x-coordinate is:",list(fleet["aircraft3"].keys()))
+print("y-coordinate is:",list(fleet["aircraft3"].values()))
+
+print("\nAircraft 4 coordinates:")
+print("x-coordinate is:",list(fleet["aircraft4"].keys()))
+print("y-coordinate is:",list(fleet["aircraft4"].values()))
+
+print("\nAircraft 5 coordinates:")
+print("x-coordinate is:",list(fleet["aircraft5"].keys()))
+print("y-coordinate is:",list(fleet["aircraft5"].values()))
